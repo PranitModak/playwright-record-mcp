@@ -46,8 +46,7 @@
     "commander": "^13.1.0",
     "playwright": "1.53.0-alpha-1745357020000",
     "yaml": "^2.7.1",
-    "zod-to-json-schema": "^3.24.4",
-    "eventsource-parser": "3.0.0"
+    "zod-to-json-schema": "^3.24.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -65,5 +64,8 @@
   },
   "bin": {
     "mcp-server-playwright": "cli.js"
-  }
+  },
+  "overrides": {
+  "eventsource-parser": "3.0.0"
+}
 }
