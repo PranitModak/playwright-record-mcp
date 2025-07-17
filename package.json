@@ -1,5 +1,5 @@
 {
-  "name": "@playwright/record-mcp",
+  "name": "@pranitmodak/playwright-record-mcp",
   "version": "0.0.1",
   "description": "Playwright MCP with video recording capabilities",
   "repository": {
@@ -67,5 +67,5 @@
   },
   "overrides": {
   "eventsource-parser": "3.0.0"
-}
+  }
 }
